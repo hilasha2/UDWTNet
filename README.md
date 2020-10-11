@@ -14,6 +14,7 @@ We called the combined network: UDWTNet.
 In order to run the code 
 run the following code blocks by order - 
 PART A:
+
 	1. Install Pytorch 1.6.0
 	2. Install imgaug. 
 		Installtion of libraries for image augmentations.
@@ -36,7 +37,9 @@ PART A:
 	11. Optional: View augmentated dataset
 
 PART B: 
+
 	Defining the network models. 
+	
 	For U-Net only:
 	1. UNet model. 
 		Defining the model. 
@@ -61,6 +64,7 @@ PART B:
 
 PART C: 
 	Supporting functions used for training and testing.
+	
 	1. Define Load Model.
 		For loading saved model (files ending with '.pt').
 	2. Define plotModelResult
@@ -76,6 +80,7 @@ PART C:
 		For gradients' behaviour checkup. 
 
 PART D: 
+
 	Training and testing.
 
 	For U-Net only:
