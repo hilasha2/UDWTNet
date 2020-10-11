@@ -1,18 +1,20 @@
-This code was written as part of a final project 
-of a deep learning course taught by
-Raja Giryes and Barak Hadad at Tel Aviv University.
+This code was written as part of a final project of a deep learning course taught by Raja Giryes and Barak Hadad at Tel Aviv University.
 
 The code implements U-Net for cell segmentation.
 The project is based on the cell segmentation and tracking challenge:
+
 celltrackingchallenge.net 
+
 Data used was time-lapse microscopic images of HeLa Cells.
-We combined U-Net and a watershed transform network (DWTNet) based on
-Urtasun's and Bai's work:
+
+We combined U-Net and a watershed transform network (DWTNet) based on Urtasun's and Bai's work:
+
 https://github.com/min2209/dwt 
+
 We called the combined network: UDWTNet.
 
-In order to run the code 
-run the following code blocks by order - 
+In order to run the code run the following code blocks by order - 
+
 PART A:
 
 	1. Install Pytorch 1.6.0
