@@ -1,9 +1,11 @@
+# Cell segmentation and tracking challenge (HeLa Cells, DIC microscopy)
+
 This code was written as part of a final project of a deep learning course taught by Raja Giryes and Barak Hadad at Tel Aviv University.
 
 The code implements U-Net for cell segmentation.
 The project is based on the cell segmentation and tracking challenge:
 
-celltrackingchallenge.net 
+https://celltrackingchallenge.net 
 
 Data used was time-lapse microscopic images of HeLa Cells.
 
@@ -13,9 +15,9 @@ https://github.com/min2209/dwt
 
 We called the combined network: UDWTNet.
 
-In order to run the code run the following code blocks by order - 
+In order to run the code, run the following code blocks by order - 
 
-PART A:
+## PART A:
 
 	1. Install Pytorch 1.6.0
 	2. Install imgaug. 
@@ -27,7 +29,7 @@ PART A:
 		For saving and loading models.
 		You would be prompted to approve drive access, please do.
 	5. Set GPU device.
-	6. set path to Data base / save Path. 
+	6. Set path to Data base / save Path. 
 		If you don't have access to our drive, 
 		please upload the DIC-C2DH-HeLa dataset from 
 		celltrackigchallenge.net 
@@ -38,7 +40,7 @@ PART A:
 	10. Define Class for Data Augmentation
 	11. Optional: View augmentated dataset
 
-PART B: 
+## PART B: 
 
 	Defining the network models. 
 	
@@ -64,7 +66,7 @@ PART B:
 	5. UDWTNet Model
 	6. Optional: Debug UDWTNet model.
 
-PART C: 
+## PART C: 
 	Supporting functions used for training and testing.
 	
 	1. Define Load Model.
@@ -81,7 +83,7 @@ PART C:
 	7. Optional: Define Gradients Graph.
 		For gradients' behaviour checkup. 
 
-PART D: 
+## PART D: 
 
 	Training and testing.
 
